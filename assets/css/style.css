@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
 }
 
 .clearfix::after {
@@ -33,7 +33,12 @@
     padding: 10px 40px 30px 40px;
     margin: 10px 20px 30px 40px;
     height: 50%;
-    width: 50%
+    width: 50%;
+    transform: rotate(90deg);
+}
+
+#headshot {
+    transform:
 }
 
 .header-container {
