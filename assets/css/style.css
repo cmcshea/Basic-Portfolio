@@ -1,13 +1,21 @@
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .name {
     float: left;
     padding: 20px;
     margin: 0 auto;
     color: white;
     background: #4aaaa5;
+    height: 100%;
+    width: 270px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-nav {
+.nav {
     float: right;
     padding: 10px 40px 30px 40px;
     margin: 10px 20px 30px 40px;
