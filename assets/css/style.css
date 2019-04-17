@@ -1,10 +1,15 @@
 
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
-.name {
+#name {
     float: left;
     padding: 20px;
     margin: 0 auto;
@@ -15,12 +20,20 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.nav {
+#nav {
     float: right;
     padding: 10px 40px 30px 40px;
     margin: 10px 20px 30px 40px;
     color: gray;
     background: white;
+}
+
+#headshot {
+    float: left;
+    padding: 10px 40px 30px 40px;
+    margin: 10px 20px 30px 40px;
+    height: 50%;
+    width: 50%
 }
 
 .header-container {
