@@ -1,14 +1,5 @@
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    color: #777777;
-    font-family: 'Ariel', 'Helvetica Neue', Helvectica, sans-serif;
-}
-
-header {
+.name {
     float: left;
     padding: 20px;
     margin: 0 auto;
@@ -17,7 +8,7 @@ header {
 }
 
 nav {
-    float: left;
+    float: right;
     padding: 10px 40px 30px 40px;
     margin: 10px 20px 30px 40px;
     color: gray;
@@ -30,11 +21,5 @@ nav {
     color: white;
     background: #ffffff;
     border: #cccccc;
-}
-.container {
-    margin: 0 auto;
-    width: 960px;
-    background: #ffffff;
-    border: #dddddd;
 }
 
