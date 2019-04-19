@@ -20,13 +20,14 @@ body {
 }
 
 .header-container {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 0 auto;
     margin-top: 0;
     margin-right: 20px;
     width: 100%;
     height: 100px;
     background: #ffffff;
-    border-bottom: 2px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
 }
 
 .main-container {
@@ -36,7 +37,7 @@ body {
     width: 100%;
     height: 400px;
     background: #ffffff;
-    border: 10px solid #cccccc;
+    border: 10px solid #dddddd;
 }
 
 #name {
@@ -63,14 +64,18 @@ body {
     float: left;
     padding: 10px 40px 30px 40px;
     margin: 10px 20px 30px 40px;
-    height: 30%;
-    width: 30%;
+    height: 20%;
+    width: 20%;
     transform: rotate(90deg);
 }
 
 #title {
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+    margin-left: 20px;
     height: 100px;
-    width: 100%;
-    font-size: 24px;
+    width: 270px;
+    font-size: 34px;
+    color: #4aaaa5;
 
 }
