@@ -1,7 +1,14 @@
 
+
+body {
+    width: 960px;
+    font: #777777;
+    background: #ffffff;
+}
+
 * {
     box-sizing: border-box;
-    text-align: left;
+    text-align: center;
 }
 
 .clearfix::after {
@@ -9,6 +16,16 @@
     clear: both;
     display: table;
 }
+
+.header {
+    padding: 10px 40px 30px 40px;
+    margin: 10px 20px 30px 40px;
+    width: 100%;
+    height: 100px;
+    background: blue;
+    border-bottom: #cccccc;
+}
+
 #name {
     float: left;
     padding: 20px;
@@ -18,6 +35,7 @@
     height: 100%;
     width: 270px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
 }
 
 #nav {
