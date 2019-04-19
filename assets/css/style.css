@@ -77,5 +77,5 @@ body {
     width: 270px;
     font-size: 34px;
     color: #4aaaa5;
-
+    border-bottom: 2px solid gray;
 }
