@@ -17,7 +17,7 @@ body {
     display: table;
 }
 
-.header {
+.header-container {
     padding: 0 auto;
     margin-top: 0;
     margin-right: 20px;
@@ -41,8 +41,8 @@ body {
 
 #nav {
     float: right;
-    padding: 10px 40px 30px 40px;
-    margin: 10px 20px 30px 40px;
+    padding-top: 40px;
+    margin-right: 10px;
     color: gray;
     background: white;
 }
@@ -56,11 +56,4 @@ body {
     transform: rotate(90deg);
 }
 
-.header-container {
-    padding: 20px;
-    margin: 0 auto;
-    color: white;
-    background: #ffffff;
-    border: #cccccc;
-}
 
