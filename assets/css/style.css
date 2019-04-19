@@ -60,6 +60,10 @@ body {
     background: white;
 }
 
+#nav a {
+    display: inline-block;
+    border-left: 2px solid black;
+}
 #headshot {
     float: left;
     padding: 10px 40px 30px 40px;
