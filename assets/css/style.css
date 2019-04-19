@@ -2,8 +2,10 @@
 
 body {
     width: 960px;
+    height: 1200px;
     font: #777777;
     background: #ffffff;
+    margin: 0 auto;
 }
 
 * {
@@ -25,6 +27,16 @@ body {
     height: 100px;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
+}
+
+.main-container {
+    padding: 0 auto;
+    margin-top: 0;
+    margin-right: 20px;
+    width: 100%;
+    height: 400px;
+    background: #ffffff;
+    border: 10px solid #cccccc;
 }
 
 #name {
@@ -56,4 +68,9 @@ body {
     transform: rotate(90deg);
 }
 
+#title {
+    height: 100px;
+    width: 100%;
+    font-size: 24px;
 
+}
