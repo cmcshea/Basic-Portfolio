@@ -26,13 +26,25 @@ body {
     margin-right: 50px;
     margin-left: 50px;
     width: 960px;
-    height: 100px;
+    height: 80px;
     background: #ffffff;
     border-bottom: 1px solid #cccccc;
 }
 
+#title {
+    text-align: left;
+    padding-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 80px;
+    width: 960;;
+    font-size: 24px;
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid lightgray;
+}
+
 .main-container {
-    margin-top: 0;
     margin-left: 50px;
     margin-left: 50px;
     width: 960px;
@@ -43,10 +55,10 @@ body {
 
 #name {
     float: left;
-    padding-top: 40px;
+    padding-top: 30px;
     color: white;
     background: #4aaaa5;
-    height: 100px;
+    height: 80px;
     width: 270px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 25px;
@@ -55,7 +67,7 @@ body {
 
 #nav {
     float: right;
-    padding-top: 40px;
+    padding-top: 30px;
     color: gray;
     background: white;
     text-align: center:
@@ -87,13 +99,4 @@ body {
     transform: rotate(90deg);
 }
 
-#title {
-    text-align: left;
-    padding: 20px 10px 20px 10px;
-    margin-left: 20px;
-    height: 100px;
-    width: 270px;
-    font-size: 34px;
-    color: #4aaaa5;
-    border-bottom: 2px solid gray;
-}
+
