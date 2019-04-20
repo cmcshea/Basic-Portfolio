@@ -24,9 +24,9 @@ body {
 .header-container {
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 0 auto;
-    margin-top: 0;
-    margin-right: 20px;
-    width: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 960px;
     height: 100px;
     background: #ffffff;
     border-bottom: 1px solid #cccccc;
@@ -35,7 +35,7 @@ body {
 .main-container {
     padding: 0 auto;
     margin-top: 0;
-    margin-right: 20px;
+    margin-left: 50px;
     width: 960px;
     height: 500px;
     background: #ffffff;
@@ -45,7 +45,6 @@ body {
 #name {
     float: left;
     padding-top: 40px;
-    margin-left: 100px;
     color: white;
     background: #4aaaa5;
     height: 100px;
@@ -58,9 +57,9 @@ body {
 #nav {
     float: right;
     padding-top: 40px;
-    margin-right: 10px;
     color: gray;
     background: white;
+    text-align: center:
 }
 
 #nav a {
@@ -84,8 +83,8 @@ body {
     float: left;
     padding: 10px 40px 30px 40px;
     margin: 10px 20px 30px 40px;
-    height: 150px;
-    width: 200px;
+    height: 50%;
+    width: 20%;
     transform: rotate(90deg);
 }
 
