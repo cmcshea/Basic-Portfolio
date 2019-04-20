@@ -124,13 +124,15 @@ body {
     margin-left: auto;
     height: 80px;
     background: #666666;
-    border-top: 5px solid teal
+    border-top: 10px solid teal
 }
 
 #footer {
     text-align: center;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #777777;
+    padding-top: 50px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(233, 223, 223);
 }
 
 p {
