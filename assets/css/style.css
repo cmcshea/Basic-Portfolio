@@ -142,3 +142,7 @@ p {
     padding-left: 20px;
     width: 960px;
 }
+
+.form-group {
+    text-align: left;
+}
